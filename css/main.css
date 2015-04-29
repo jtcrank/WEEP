@@ -1,0 +1,345 @@
+/* Theme Colors:
+    Dark Green - #445836
+    Green - #65B434
+    Light Green -
+    Gray - #585957
+    Yellow - #CBA317
+    Orange - #f7933d
+    White - white
+*/
+
+/* Testing Classes */
+.t1
+{
+    background-color: pink;
+    height: 100%;
+}
+
+.t2
+{
+    background-color: teal;
+    height: 100%;
+}
+
+.t3
+{
+    background-color: orange;
+    height: 100%;
+}
+
+/* General Styling */
+
+.gradient_bg
+{
+    background-image: url(../images/green-bg.jpg);
+}
+
+.gray_gradient
+{
+    background: linear-gradient(#494949, #585957);
+    background: -webkit-linear-gradient(#494949, #585957);
+    background: -o-linear-gradient(#494949, #585957);
+    background: -moz-linear-gradient(#494949, #585957);
+}
+
+.padded_row
+{
+    padding: 15px;
+}
+
+.rounded_top
+{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+}
+
+.rounded_bottom
+{
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
+}
+
+.rounded_borders
+{
+    border-radius:1em;
+}
+
+.circle_bg {
+    border-radius: 30px;
+    width: 1em;
+    background-color: white;
+    font-size: 1em;
+}
+
+.margin_upper
+{
+    margin: .01em .01em 0 .01em;
+    border-top: 1px solid #585957;
+    border-left: 1px solid #585957;
+    border-right: 1px solid #585957;
+}
+
+.margin_lower
+{
+    margin: .0 .01em .01em .01em;
+    border-bottom: 1px solid #585957;
+    border-left: 1px solid #585957;
+    border-right: 1px solid #585957;
+}
+
+.center
+{
+    text-align: center;
+    height: 100%;
+}
+
+/* Component CSS */
+.navbar
+{
+    min-height: 65px;
+    margin-bottom: 0px;
+}
+
+.container-fluid
+{
+  padding: 0px;
+}
+
+.img-responsive
+{
+    width: auto;
+    height: 100%;
+}
+
+#twitter_box
+{
+    background-color: white;
+    border: 2px solid #585957;
+    height: 100%;
+}
+
+#twitter_header
+{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(#0084B4, #329BC2);
+    background: -webkit-linear-gradient(#0084B4, #329BC2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0084B4, #329BC2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0084B4, #329BC2); /* For Firefox 3.6 to 15 */
+    vertical-align: text-bottom;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+}
+
+#twitter_body
+{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+#twitter_logo
+{
+    height: 1em;
+    width: auto;
+}
+
+#lg-btnbar
+{
+    padding: 5px 15px 5px 15px;
+}
+
+/* Header CSS */
+#logo_box
+{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -10px;
+    color: #65B434;
+}
+
+#leaf_logo
+{
+    font-size: 1.5em;
+}
+
+#logo_subtext
+{
+    font-size: .5em;
+    color: #445836;
+}
+
+.icon-bar {
+    background-color: #65B434 !important;
+}
+
+.nav.navbar-nav
+{
+    height: 100%;
+}
+
+.navbar-toggle
+{
+    border: 1px solid #65B434;
+}
+
+#myNavbar
+{
+    height: 65px !important;
+}
+
+.nav-link
+{
+    color: #f7933d !important;
+    height: 65px !important;
+}
+
+.active a
+{
+    height: 65px;
+    color: #f7933d !important;
+}
+
+/* Graph Container CSS */
+.graph_heading
+{
+    background-color: #65B434;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+}
+
+/* Chat Bubble */
+.bubble
+{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    background: #FFFFFF;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    /*border: #f7933d solid 2px;*/
+}
+
+#messages_wrapper
+{
+    overflow-y: scroll;
+    height: 350px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#bubble_messages
+{
+    height: 350px;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.bubble:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 16px 38px 16px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -16px;
+    left: -38px;
+    top: 87%;
+}
+
+.bubble:before
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 16px 38px 16px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -17px;
+    left: -38px;
+    top: 87%;
+}
+
+.chat_msg
+{
+    background: linear-gradient(#f7933d, #cecece);
+    background: -webkit-linear-gradient(#f7933d, #cecece);
+    background: -o-linear-gradient(#f7933d, #cecece);
+    background: -moz-linear-gradient(#f7933d, #cecece);
+    border-radius:1em;
+    padding: 5px;
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;
+    float: right;     /* IE */
+    margin-bottom: 5px;
+    max-width: 80%;
+}
+
+.chat_response
+{
+    background: linear-gradient(#5C8AA6, #cecece);
+    background: -webkit-linear-gradient(#5C8AA6, #cecece);
+    background: -o-linear-gradient(#5C8AA6, #cecece);
+    background: -moz-linear-gradient(#5C8AA6, #cecece);
+    border-radius:1em;
+    padding: 5px;
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;     /* IE */
+    float: left;
+    margin-bottom: 5px;
+    max-width: 80%;
+}
+
+.chat_bar
+{
+    height: 40px;
+    padding: 0px;
+}
+
+#sm-btnbar
+{
+    display: none;
+    padding: 10px;
+    border-radius: 1em;
+    background: linear-gradient(#494949, #6b6b6a);
+    background: -webkit-linear-gradient(#494949, #6b6b6a);
+    background: -o-linear-gradient(#494949, #6b6b6a);
+    background: -moz-linear-gradient(#494949, #6b6b6a);
+}
+
+.chatbtn-sm
+{
+    border-radius: 0em;
+    height: 100%;
+    width: 100%;
+    background-color: #93e257;
+    border: 1px solid white;
+}
+
+.chatbtn-lg
+{
+    height: 100%;
+    width: 100%;
+    border-radius:.5em;
+    background-color: #93e257;
+    border: 1px solid white;
+}
